@@ -1,0 +1,182 @@
+/* Start Flex , Grid */
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* Display */
+.d-block {
+    display: block;
+}
+/* Padding and Margin */
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+/* Colors */
+.bg-white {
+    background-color: #fff;
+}
+.white {
+    color: #fff;
+}
+.black {
+    color: #000;
+}
+.bg-000 {
+    background-color: #000;
+}
+.eee {
+    background-color: #eee;
+}
+.grey {
+    color: #888;
+}
+.blue {
+    color: #0075ff;
+}
+.bg-blue {
+    background-color: #0075ff;
+}
+.bg-orange {
+    background-color: orange;
+}
+.c-orange {
+    color: orange;
+}
+.bg-green {
+    background-color: #22c55e;
+}
+.c-green {
+    color: green;
+}
+/* Position */
+.relative {
+    position: relative;
+}
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+/* Start Border */
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.m-border {
+  border: 1px solid #ccc;
+}
+.b-none {
+    border: none;
+}
+/* Media */
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+    .block-mobile {
+        display: block;
+    }
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+/* Width and Height */
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+/* Components */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+
+
+
