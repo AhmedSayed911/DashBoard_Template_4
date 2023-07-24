@@ -1,0 +1,146 @@
+@media (max-width: 767px) {
+    .sidebar {
+        width: 57px;
+        padding: 10px;
+    }
+    .sidebar ul li a span {
+        display: none;
+    }
+    .sidebar > h3 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .sidebar > h3::before,
+    .sidebar > h3::after {  
+        display: none;
+    }
+    .wrapper {
+        gap: 10px;
+        margin-right: 10px;
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+    }
+    .welcome .intro {
+        padding-bottom: 30px;
+    }
+    .welcome .avatar {
+        margin-left: 0;
+    }
+    .welcome .body > div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .tickets .box {
+        width: 100%;
+      }
+      .latest-news .news-row .label {
+        margin: 10px auto;
+        width: fit-content;
+      }
+      .backup-control .servers {
+        flex-wrap: wrap;
+      }
+      .profile-page .overview {
+        flex-direction: column;
+      }
+      .profile-page .activity {
+        flex-direction: column;
+      }
+      .profile-page .activity img {
+          margin-right: 0;
+          margin-bottom: 20px;
+      }
+        .profile-page .activity .date {
+          margin-top: 15px;
+    }
+    .projects-page {
+      grid-template-columns: minmax(200px , 1fr);
+      gap: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .projects-page .project .do {
+      flex-direction: column;
+    }
+    .projects-page .project .do span {
+      width: fit-content;
+    }
+    .projects-page .project .info {
+      flex-direction: column;
+    }
+    .projects-page .project .prog {
+      margin-bottom: 15px;
+    }
+    .courses-page {
+      grid-template-columns: minmax(200px , 1fr);
+      gap: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .courses-page .course {
+      overflow: hidden;
+    }
+    .friends-page {
+      grid-template-columns: minmax(200px , 1fr);
+      gap: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .files-page {
+      flex-direction: column;
+      align-items: normal;
+    }
+    .profile-page .other-data {
+      flex-direction: column;
+    }
+    .plans-page {
+      grid-template-columns: minmax(250px , 1fr);
+      gap: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+}
+@media (max-width: 577px) {
+    .latest-uploads ul li span:first-of-type {
+        font-size: 14px;
+        margin: 0 8px 0 0;
+    }
+    .latest-uploads ul li span:last-of-type {
+        font-size: 13px;
+    }
+    .latest-uploads ul li div:last-of-type {
+        padding: 2px 5px;
+    }
+    .latest-uploads ul li img {
+        height: 30px;
+        width: 30px;
+        margin: 10px 6px 10px 5px;
+    }
+}
+@media (max-width: 676px) {
+    .settings-page {
+    grid-template-columns: repeat(auto-fill , minmax(280px , 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    }
+}
+@media (max-width: 991px) {
+    .tickets .box {
+        width: calc(50% - 10px);
+      }
+}
+@media (min-width: 768px) {
+    .profile-page .avatar-box {
+      border-right: 1px solid #eee;
+    }
+    .profile-page .info-box .box > div {
+      min-width: 300px;
+      padding: 10px 0 0;
+    }
+  }
+  @media (min-width: 768px) {
+    .profile-page .activity .date {
+      margin-left: auto;
+      text-align: right;
+    }
+  }
